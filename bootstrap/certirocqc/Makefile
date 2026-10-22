@@ -33,6 +33,7 @@ ifeq '$(CERTIROCQ_CONFIG)' 'local'
 	-Q ../../theories/LambdaANF CertiRocq.LambdaANF \
 	-Q ../../theories/LambdaBox_to_LambdaANF CertiRocq.LambdaBox_to_LambdaANF \
 	-Q ../../theories/CodegenWasm CertiRocq.CodegenWasm \
+	-Q ../../theories/CodegenLLVM CertiRocq.CodegenLLVM \
 	-Q ../../theories/Compiler CertiRocq.Compiler -Q ../../theories/common CertiRocq.Common \
 	-Q ../../theories/Glue CertiRocq.Glue \
 	-Q ../../plugins/plugin CertiRocq.Plugin \
