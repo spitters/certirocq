@@ -237,6 +237,7 @@ Anf
 Anf_convert_env
 Cps
 Merge_dup_funs
+Tail_letapp
 Toplevel
 Toplevel0
 Glue_utils
